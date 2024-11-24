@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste do Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body class="bg-dark">
+    <div class="container bg-white mt-5 rounded p-3">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
+            <a class="navbar-brand" href="#">FATEC</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="inicio.html">Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tabela_bootstrap.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formulario_bootstrap.html">Cadastro</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> <!--Fecha Navbar-->
+
+
+        <div class="row">
+            <div class="col">
+                <h1>Cadastro de Alunos</h1>
+                <form action="arquivo.php" method="post">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="nome">Nome:</label>
+                            <input id="nome" class="form-control" type="text"/>                           
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="email">E-mail:</label>
+                            <input id="email" class="form-control" type="email"/>                           
+                        </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</body>

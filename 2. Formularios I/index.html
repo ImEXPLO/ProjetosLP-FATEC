@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Bem vindo ao meu segundo código, começamos a criar labels com texto-->
+<!-- E aqui também, pelo que lembro, começamos a usar bastante o css básico para estilizar a página.-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Semânticas</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/estilos_formulario.css" />
+</head>
+
+<body>
+    <div id="corpo">
+        <header>
+            <h1>Loja de Hardware</h1>
+        </header>
+        <main>
+            <h2>Cadastro de Clientes</h2>
+            <form action="outra_pagina.html" method="get">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label>
+                        Nome: <input type="text" name="txt_nome" placeholder="Seu Nome completo" required />
+                        <!-- Seu lindo nome -->
+                    </label>
+                    <label class="label-50">
+                        E-mail: <input type="email" name="txt_email" placeholder="Seu melhor e-mail" required />
+                        <!-- Email para ficar fazendo SPAM -->
+                    </label>
+                    <label class="label-50">
+                        Telefone: <input type="number" name="txt_telefone" placeholder="Seu telefone" required />
+                        <!-- ZapZap, ou o mais famoso telefone. -->
+                    </label>
+                    <label class="label-50">
+                        Data de Nascimento: <input type="date" name="txt_data_nasc" required />
+                        <!-- Data de Nascimento -->
+                    </label>
+                    <label class="label-50">
+                        CPF: <input type="number" name="txt_cpf" placeholder="Somente números" required /> <!-- CPF -->
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <label class="label-50">
+                        Rua: <input type="text" name="txt_rua" required /> <!-- Rua -->
+                    </label>
+                    <label class="label-50">
+                        Bairro: <input type="text" name="txt_bairro" required /> <!-- Bairro -->
+                    </label>
+                    <label class="label-50">
+                        Cidade: <input type="text" name="txt_cidade" required /> <!-- Cidade -->
+                    </label>
+                    <label class="label-50">
+                        Estado: <!-- Estado (dropdown) -->
+                        <select>
+                            <option value="">Selecione...</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PR">Paraná</option>
+                        </select>
+                    </label>
+                </fieldset>
+
+                <p class="center">
+                    <button type="submit" class="botao-enviar">Enviar</button> <!-- Só enviar e é sucesso. -->
+                    <button type="reset">Limpar</button> <!-- Mande tudo pro lixo com um simples botão, legal não? -->
+                </p>
+
+            </form>
+
+        </main>
+        <footer>
+            <!-- Aquele rodapé pra finalizar com chave de? SIM! De Ouro! -->
+            Loja do Hardware LTDA
+            <address>
+                Rua da Fatec, 286
+                - Jaú - <abbr title="São Paulo - Brasil">SP</abbr>
+            </address>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Seja bem-vindo ao meu primeiro codigo feito em HTML, sim, esse index.html foi o primeiro contato que tive com HTML e consequetemente o CSS nas aulas de Linguagens de Programação-->
+ <!--Com o profº Tiago. Tema de Tabelas semânticas, que praticamente sao -->
+
+<head>
+    <!--Sou um comentário, MIM INGNORE ;)--> <!-- Que fofo, meu primeiro comentario em um HTML...-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas Semânticas</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/estilos_tabela.css" />
+</head>
+
+<body>
+    <div id="corpo">
+        <header>
+            <h1>Loja de Hardware</h1> <!-- Header com o nome da Loja, por sinal, um nome MUITO criativo.-->
+        </header>
+
+        <main>
+            <h2>Lista de Produtos</h2>
+            <table> <!-- inicio de uma tabela-->
+                <thead> <!-- thead, elemento que acomoda as colunas da tabela-->
+                    <tr>
+                        <th>Código</th>
+                        <th>Categoria</th>
+                        <th>Descrição</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody> <!-- corpo da tabela-->
+                    <tr>
+                        <td>896</td>
+                        <td>Processador</td>
+                        <td>Ryzen 7 5800</td>
+                        <td>R$ 1.862,00</td>
+                    </tr>
+                    <tr>
+                        <td>452</td>
+                        <td>Placa De Vídeo</td>
+                        <td>NVidia RTX 4070 TI</td>
+                        <td>R$ 4.822,00</td>
+                    </tr>
+                    <tr>
+                        <td>963</td>
+                        <td>Placa-Mãe</td>
+                        <td>Asus B450 TUF</td>
+                        <td>R$ 989,56</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer> <!-- rodape da página, endereço meio reconhecível-->
+            Loja de Hardware LTDA.
+            <address>
+                Rua da Fatec, 6969
+                - Jaú -
+                <abbr title="São Paulo - Brasil">SP</abbr>
+            </address>
+        </footer>
+    </div>
+</body>

@@ -1,0 +1,129 @@
+* { margin: 0;padding: 0; }
+
+body {
+    background: #eee; font-family: 'Arial Black';
+}
+
+#corpo {
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    margin: 0 auto;
+}
+
+header {
+    background-color: #b20000;
+    padding: 1%;
+    border-bottom: 1px solid #999;
+}
+
+header h1 {
+    color: #fff;
+    text-align: right;
+    text-shadow: 1px 1px 2px #fff;
+    text-transform: uppercase;
+}
+
+nav {
+    padding: 1%; 
+    font-family: 'Arial Black';
+    background-color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#sobre h1 {
+    text-align: center;
+}
+
+#sobre h2 {
+    text-align: center;
+}
+
+#sobre p {
+    text-align: center;
+}
+
+#ementas h1 {
+    text-align: center;
+}
+
+#ementas h2 {
+    text-align: center;
+}
+
+#ementas p {
+    text-align: center;
+}
+
+#docentes h1 {
+    text-align: center;
+}
+
+#docentes h2 {
+    text-align: center;
+}
+
+#docentes p {
+    text-align:  center;
+}
+
+#docentes article img {
+    float: left;
+}
+
+#docentes article {
+    background: #eee; width: 42%; 
+    margin: auto; border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    padding: 2%;
+}
+
+#tabela_semestre h1 {
+    text-align: center;
+}
+
+#tabela_semestre h2 {
+    text-align: center;
+}
+
+#tabela_semestre p {
+    text-align:  center;
+}
+
+.tabelinha {
+    display: inline-block; 
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    overflow: hidden; 
+}
+
+.tabelinha a {
+    display: inline-block; 
+    padding: 10px 20px; 
+    color: inherit; 
+    text-decoration: none;
+    border-right: 1px solid #ccc; 
+}
+
+footer {
+    background: #c9c9c9;   
+    text-align: center;
+    padding: 2%; border-top: 1px solid #999;
+    font-family: 'Arial Black';
+}
+

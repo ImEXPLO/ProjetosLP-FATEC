@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- O maior projeto que fiz nesse semestre na área de Linguagens de programação, +1000 linhas de código configurando um show do milhão do saudoso Silvio Santos, maoe maoe!-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show do Milhão</title>
+    <link type="text/css" rel="stylesheet" href="css/estilos.css">
+    <script type="text/javascript" src="js/comportamentos.js"></script>
+    <link rel="icon" href="img/favicon.png" type="image/png">
+</head>
+
+<body>
+    <main>
+        <fieldset>
+            <legend>
+                <img src="img/logo.jpg"> <!-- Logo do Show do milhão-->
+            </legend>
+            <section id="comecar">
+                <button id="btn-comecar">Começar a Jogar!</button>
+            </section>
+            
+            <!-- O que estiver de comentário é qual a pergunta utilizada, segundo o almanaque que o profº Tiago disponibilizou para a gente.-->
+
+            <section id="lista-perguntas">
+                <div id="pergunta1000" class="pergunta">
+                    <form id="form-pergunta1000">
+                        <p>Quem é o patrono do exército brasileiro?</p> <!-- Pergunta 8-->
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span> <input type="radio" name="pergunta1000" value="1" />
+                                    Marechal Deodoro
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span> <input type="radio" name="pergunta1000" value="2" />
+                                    Barão de Mauá
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span> <input type="radio" name="pergunta1000" value="3" />
+                                    Duque de Caxias
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span> <input type="radio" name="pergunta1000" value="4" />
+                                    Marquês de Pombal
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/1/estagio1-errar.png" class="label-img">
+                            <img src="img/estagios/1/estagio1.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="pergunta2000" class="pergunta"> <!-- Pergunta 16-->
+                    <form id="form-pergunta2000">
+                        <p>Qual lugar é também chamado de Santa Sé?</p>
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span> <input type="radio" name="pergunta2000" value="1" />
+                                    Veneza
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span> <input type="radio" name="pergunta2000" value="2" />
+                                    Vitória
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span> <input type="radio" name="pergunta2000" value="3" />
+                                    Vancouver
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span> <input type="radio" name="pergunta2000" value="4" />
+                                    Vaticano
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/2/estagio2-errar.png" class="label-img">
+                            <img src="img/estagios/2/estagio2-parar.png" class="label-img">
+                            <img src="img/estagios/2/estagio2-acertar.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="pergunta3000" class="pergunta"> <!-- Pergunta 24-->
+                    <form id="form-pergunta3000">
+                        <p> O churrasco é considerado uma comida típica de qual estado?</p>
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span> <input type="radio" name="pergunta3000" value="1" />
+                                    Ceará
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span> <input type="radio" name="pergunta3000" value="2" />
+                                    Rio Grande do Sul
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span> <input type="radio" name="pergunta3000" value="3" />
+                                    Pará
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span> <input type="radio" name="pergunta3000" value="4" />
+                                    Maranhão
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/3/estagio3-errar.png" class="label-img">
+                            <img src="img/estagios/3/estagio3-parar.png" class="label-img">
+                            <img src="img/estagios/3/estagio3-acertar.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="pergunta4000" class="pergunta"> <!-- Pergunta 32-->
+                    <form id="form-pergunta4000">
+                        <p> Qual é a pedra preciosa mais dura encontrada na natureza?</p>
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span> <input type="radio" name="pergunta4000" value="1" />
+                                    Esmeralda
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span> <input type="radio" name="pergunta4000" value="2" />
+                                    Rubi
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span> <input type="radio" name="pergunta4000" value="3" />
+                                    Pérola
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span> <input type="radio" name="pergunta4000" value="4" />
+                                    Diamante
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/4/estagio4-errar.png" class="label-img">
+                            <img src="img/estagios/4/estagio4-parar.png" class="label-img">
+                            <img src="img/estagios/4/estagio4-acertar.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="pergunta5000" class="pergunta"> <!-- Pergunta 40-->
+                    <form id="form-pergunta5000">
+                        <p> Onde fica o centro da indústria cinematográfica nos EUA?</p>
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span> <input type="radio" name="pergunta5000" value="1" />
+                                    Nova York
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span> <input type="radio" name="pergunta5000" value="2" />
+                                    Las Vegas
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span> <input type="radio" name="pergunta5000" value="3" />
+                                    New Orleans
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span> <input type="radio" name="pergunta5000" value="4" />
+                                    Hollywood
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/5/estagio5-errar.png" class="label-img">
+                            <img src="img/estagios/5/estagio5-parar.png" class="label-img">
+                            <img src="img/estagios/5/estagio5-acertar.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="pergunta10000" class="pergunta"> <!-- Pergunta 104-->
+                    <form id="form-pergunta10000">
+                        <p> A cidade de Pompéia, que foisoterrada por um vulcão fica em qual desses países?</p>
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span> <input type="radio" name="pergunta10000" value="1" />
+                                    Japão
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span> <input type="radio" name="pergunta10000" value="2" />
+                                    México
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span> <input type="radio" name="pergunta10000" value="3" />
+                                    Itália
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span> <input type="radio" name="pergunta10000" value="4" />
+                                    Estados Unidos
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/6/estagio6-errar.png" class="label-img">
+                            <img src="img/estagios/6/estagio6-parar.png" class="label-img">
+                            <img src="img/estagios/6/estagio6-acertar.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="pergunta20000" class="pergunta"> <!-- Pergunta 112-->
+                    <form id="form-pergunta20000">
+                        <p> Como é chamada a cantora que representa o papel principal em uma ópera?</p> 
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span> <input type="radio" name="pergunta20000" value="1" />
+                                    Primeira-Dama
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span> <input type="radio" name="pergunta20000" value="2" />
+                                    Dona-Prima
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span> <input type="radio" name="pergunta20000" value="3" />
+                                    Prima-Dona
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span> <input type="radio" name="pergunta20000" value="4" />
+                                    Obra-Prima
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/7/estagio7-errar.png" class="label-img">
+                            <img src="img/estagios/7/estagio7-parar.png" class="label-img">
+                            <img src="img/estagios/7/estagio7-acertar.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="pergunta30000" class="pergunta"> <!-- Pergunta 120-->
+                    <form id="form-pergunta30000">
+                        <p> Qual cantor ficou conhecido como “O rei da voz”?</p>
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span> <input type="radio" name="pergunta30000" value="1" />
+                                    Orlando Silva
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span> <input type="radio" name="pergunta30000" value="2" />
+                                    Vicente Celestino
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span> <input type="radio" name="pergunta30000" value="3" />
+                                    Francisco Alves
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span> <input type="radio" name="pergunta30000" value="4" />
+                                    Carlos Galhardo
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/8/estagio8-errar.png" class="label-img">
+                            <img src="img/estagios/8/estagio8-parar.png" class="label-img">
+                            <img src="img/estagios/8/estagio8-acertar.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="pergunta40000" class="pergunta">
+                    <form id="form-pergunta40000">
+                        <p> No filme, quem era parceiro de crimes da Bonnie?</p> <!-- Pergunta 128-->
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span> <input type="radio" name="pergunta40000" value="1" />
+                                    Bill
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span> <input type="radio" name="pergunta40000" value="2" />
+                                    Clyde
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span> <input type="radio" name="pergunta40000" value="3" />
+                                    James
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span> <input type="radio" name="pergunta40000" value="4" />
+                                    Butch
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/9/estagio9-errar.png" class="label-img">
+                            <img src="img/estagios/9/estagio9-parar.png" class="label-img">
+                            <img src="img/estagios/9/estagio9-acertar.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="pergunta50000" class="pergunta"> <!-- Pergunta 136-->
+                    <form id="form-pergunta50000">
+                        <p> Que humorista, falecido em 1999, foi baterista de Raul Seixas?</p>
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span>
+                                    <input type="radio" name="pergunta50000" value="1" />
+                                    Lilico
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span>
+                                    <input type="radio" name="pergunta50000" value="2" />
+                                    Roni Cócegas
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span>
+                                    <input type="radio" name="pergunta50000" value="3" />
+                                    Grande Otelo
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span>
+                                    <input type="radio" name="pergunta50000" value="4" />
+                                    Mazzaropi
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/10/estagio10-errar.png" class="label-img">
+                            <img src="img/estagios/10/estagio10-parar.png" class="label-img">
+                            <img src="img/estagios/10/estagio10-acertar.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="pergunta100000" class="pergunta"> <!-- Pergunta 144-->
+                    <form id="form-pergunta100000">
+                        <p> Que animais são criados nas pocilgas?</p>
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span>
+                                    <input type="radio" name="pergunta100000" value="1" />
+                                    Camelos
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span>
+                                    <input type="radio" name="pergunta100000" value="2" />
+                                    Búfalos
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span>
+                                    <input type="radio" name="pergunta100000" value="3" />
+                                    Carneiros
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span>
+                                    <input type="radio" name="pergunta100000" value="4" />
+                                    Porcos
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/11/estagio11-errar.png" class="label-img">
+                            <img src="img/estagios/11/estagio11-parar.png" class="label-img">
+                            <img src="img/estagios/11/estagio11-acertar.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="pergunta200000" class="pergunta"> <!-- Pergunta 152-->
+                    <form id="form-pergunta200000">
+                        <p> Como é chamado o objeto falsificado vendido como original?
+                        </p>
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span>
+                                    <input type="radio" name="pergunta200000" value="1" />
+                                    Pirarucu
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span>
+                                    <input type="radio" name="pergunta200000" value="2" />
+                                    Perneta
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span>
+                                    <input type="radio" name="pergunta200000" value="3" />
+                                    Pirata
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span>
+                                    <input type="radio" name="pergunta200000" value="4" />
+                                    Papagaio
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar
+                            Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/12/estagio12-errar.png" class="label-img">
+                            <img src="img/estagios/12/estagio12-parar.png" class="label-img">
+                            <img src="img/estagios/12/estagio12-acertar.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="pergunta300000" class="pergunta"> <!--Pergunta 208-->
+                    <form id="form-pergunta300000">
+                        <p>  Qual presidente brasileiro instituiu o AI-5?
+                        </p>
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span>
+                                    <input type="radio" name="pergunta300000" value="1" />
+                                    Costa e Silva
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span>
+                                    <input type="radio" name="pergunta300000" value="2" />
+                                    Ernesto Geisel
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span>
+                                    <input type="radio" name="pergunta300000" value="3" />
+                                    João Figueiredo
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span>
+                                    <input type="radio" name="pergunta300000" value="4" />
+                                    Itamar Franco
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar
+                            Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/13/estagio13-errar.png" class="label-img">
+                            <img src="img/estagios/13/estagio13-parar.png" class="label-img">
+                            <img src="img/estagios/13/estagio13-acertar.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="pergunta400000" class="pergunta"> <!--Pergunta 216-->
+                    <form id="form-pergunta400000">
+                        <p> Que conflito ideológico envolveu os EUA e a União Soviética?
+                        </p>
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span>
+                                    <input type="radio" name="pergunta400000" value="1" />
+                                    Guerra Fria
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span>
+                                    <input type="radio" name="pergunta400000" value="2" />
+                                    Guerra da Vietnã
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span>
+                                    <input type="radio" name="pergunta400000" value="3" />
+                                    Guerra nas Estrelas
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span>
+                                    <input type="radio" name="pergunta400000" value="4" />
+                                    Guerra na Coreia
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar
+                            Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/14/estagio14-errar.png" class="label-img">
+                            <img src="img/estagios/14/estagio14-parar.png" class="label-img">
+                            <img src="img/estagios/14/estagio14-acertar.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="pergunta500000" class="pergunta"> <!--Pergunta 224-->
+                    <form id="form-pergunta500000">
+                        <p>  O confucionismo é uma filosofia de qual nacionalidade?
+                        </p>
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span>
+                                    <input type="radio" name="pergunta500000" value="1" />
+                                    Indiana
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span>
+                                    <input type="radio" name="pergunta500000" value="2" />
+                                    Japonesa
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span>
+                                    <input type="radio" name="pergunta500000" value="3" />
+                                    Chinesa
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span>
+                                    <input type="radio" name="pergunta500000" value="4" />
+                                    Coreana
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar
+                            Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/15/estagio15-errar.png" class="label-img">
+                            <img src="img/estagios/15/estagio15-parar.png" class="label-img">
+                            <img src="img/estagios/15/estagio15-acertar.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+
+                <div id="pergunta1000000" class="pergunta"> <!--Pergunta 296-->
+                    <form id="form-pergunta1000000">
+                        <p>  PERGUNTA DO MILHÃO |  O que o pintor Claude Monet representou em suas telas? 
+                        </p>
+                        <ul>
+                            <li>
+                                <label>
+                                    <span>1</span>
+                                    <input type="radio" name="pergunta1000000" value="1" />
+                                    Os Jardin de Giverny
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>2</span>
+                                    <input type="radio" name="pergunta1000000" value="2" />
+                                    Os Bistrôs de Paris
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>3</span>
+                                    <input type="radio" name="pergunta1000000" value="3" />
+                                    Cenas do Moulin Rouge
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <span>4</span>
+                                    <input type="radio" name="pergunta1000000" value="4" />
+                                    Paisagens da Provença
+                                </label>
+                            </li>
+                        </ul>
+                        <button type="submit">Confirmar Resposta</button>
+                        <div class="opcoes-labels">
+                            <img src="img/estagios/milhao/milhao-errar.png" class="label-img">
+                            <img src="img/estagios/milhao/milhao-parar.png" class="label-img">
+                            <img src="img/estagios/milhao/milhao-acertar.png" class="label-img">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </fieldset>
+
+        <div id="timer">50</div> <!-- Timer de 50segs que pus pra pergunta final, infelizmente por falta de conhecimento meu, ele ficou meio bugado.-->
+
+        <div id="fim-jogo-popup" class="popup-fim-jogo" style="display: none;"> <!-- Queria eu ganhar 1M de reais ;( -->
+            <div class="popup-conteudo">
+                <h1>Parabéns! Você venceu o Show do Milhão!</h1>
+                <p>Você chegou ao prêmio final de 1 milhão de reais!</p>
+                <button id="btn-jogar-novamente">Jogar Novamente</button>
+            </div>
+        </div>
+
+    </main>
+    <audio id="silvio-santos"></audio> <!-- um dos elementos mais importantes, que é o que chama os audios do silvio santos no javascript-->
+</body>
+
+</html>

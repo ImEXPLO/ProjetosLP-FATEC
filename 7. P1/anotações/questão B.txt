@@ -1,0 +1,69 @@
+B - faça uma página para cada disciplina cursada até agora (as em andamento também) explicando os 
+conteúdos (Ementa) que foram estudados:
+
+1 SEMESTRE:
+PROCESSOS GERENCIAIS - CONCLUÍDO
+Ementa
+Teorias e movimentos da administração. Conceitos e métodos administrativos. A empresa 
+e os atuais sistemas administrativos. A estrutura organizacional e suas funções. Relacionamento 
+interdepartamental. Processos Gerenciais. Apoio da Tecnologia da Informação aos processos gerenciais.
+
+ALGORITMOS - CONCLUÍDO
+Ementa
+Método para desenvolvimento de algoritmos. Modularidade e abstração. Tipos de dados básicos e representações gráficas dos principais comandos em uma linguagem procedural. Expressões aritméticas, lógicas e literais. Estruturas básicas de programas (sequência, iteração, seleção simples e múltipla). Algoritmos para manipulação de estruturas básicas.
+
+FUNDAMENTOS DE TECNOLOGIA DA INFORMAÇÃO - CONCLUÍDO
+Ementa
+Caracterização e histórico da computação e dos sistemas automatizados de informação. 
+Conceitos de Software, Hardware e Peopleware. A Sociedade da Informação e os impactos nas 
+organizações. Organização de dados, informações e conhecimentos. Fundamentos de Arquitetura de 
+computadores. Tendências da área de TI.
+
+INGLÊS I - CONCLUÍDO
+Ementa
+Introdução à compreensão e produção oral e escrita por meio da integração das habilidades 
+linguístico comunicativas. Ênfase na oralidade, atendendo às especificidades acadêmico profissionais da área e abordando aspectos sócio culturais da língua inglesa.
+
+COMUNICAÇÃO E EXPRESSÃO - CONCLUÍDO
+Ementa 
+Visão geral da noção de texto. Diferenças entre oralidade e escrita, leitura, análise e 
+produção de textos de interesse geral e da administração: cartas, relatórios, correios eletrônicos e 
+outras formas de comunicação escrita e oral nas organizações. Coesão e coerência do texto e diferentes gêneros discursivos.
+
+MATÉMATICA DISCRETA - CONCLUÍDO
+Ementa
+Teoria dos conjuntos. Relações e Funções. Matrizes e Determinantes. Álgebra Linear. 
+Lógica Proposicional. Tabelas Verdade. Equivalências Lógicas (Leis de Morgan). Teoria dos 
+Números.
+
+
+_____________________________________________________________________________
+
+2 SEMESTRE:
+GESTÃO DE SISTEMAS OPERACIONAIS - CURSANDO
+Ementa
+Sistema Operacional: Evolução histórica. Estrutura dos Sistemas Operacionais. Processos e Threads. Gerência de Processos. Sincronização de Processos Concorrentes. Gerenciamento de Memória. Memória Virtual. Gerência de Dispositivos. Apresentação e utilização dos sistemas operacionais proprietários e não proprietários. Instalação e configuração de SO. Interoperabilidade de Sistemas. Virtualização. Estudo Comparativo de Sistemas Operacionais
+
+LABORATÓRIO DE HARDWARE - CURSANDO
+Ementa
+Montagem, manutenção e configuração de hardware e dispositivos de entrada e saída: identificação dos componentes para montar um computador, compatibilidade, detalhes sobre as especificações de cada componente, identificação e correção de problemas, substituição de componentes, upgrades, configuração (Setup/BIOS). Utilização de softwares e ferramentas para testar o hardware. Manutenção preventiva de hardware, limpeza periódica nos componentes, compra e controle de componentes, equipamentos de reserva.
+
+LINGUAGENS DE PROGRAMAÇÃO - CURSANDO
+Ementa
+Conceitos básicos de Linguagens de Programação. Visão geral de linguagens. Paradigmas de Linguagens de Programação. Conceitos de linguagens procedurais e de linguagens orientadas a objetos. Valores e tipos de dados. Variáveis e constantes. Expressões e comandos. Tratamento de erros (exceções). Entrada e saída de dados. Estruturas Lógicas (decisão, repetição e seleção). Avaliação de linguagens. Utilização de uma linguagem de programação de uso corrente no mercado.
+
+MODELAGEM DE PROCESSOS - CURSANDO
+Ementa
+A Organização gerida por Processos. Processos Departamentais. Elementos dos Processos de Negócios. Análise, definição, execução, monitoramento e administração de processos. O contexto do trabalho colaborativo apoiado por computador (CSCW) e Gestão Automatizada de Processos (BPM). Auditoria de Processos. Modelos de Sistemas de Informação a partir de Modelos de Negócios. Técnicas e ferramentas de Modelagem e Otimização. Movimentos de TI que apóiam Processos. Estudos de casos por meio de modelagem de processos existentes em uma organização real e apresentação de relatório técnico com propostas de melhorias dos processos modelados.
+
+INGLÊS II - CURSANDO
+Ementa
+Consolidação da compreensão e produção oral e escrita por meio da integração das habilidades linguístico comunicativas desenvolvidas na disciplina Inglês 1. Ênfase na oralidade, atendendo às especificidades acadêmico profissionais da área e abordando aspectos sócio culturais da língua inglesa.
+
+MATEMÁTICA FINANCEIRA - CURSANDO
+Ementa
+Porcentagens em aplicações comerciais. Juros simples. Desconto de títulos. Correção monetária. Índices financeiros. Juros compostos. Taxas de juros. Rendas. Amortização de empréstimo. Métodos de análise de investimentos. Substituição de equipamento. Leasing. Câmbio. Noções sobre mercados de capitais.
+
+METODOLOGA DE PESQUISA CIENTÍFICO - CURSANDO
+Ementa
+O Papel da ciência e da tecnologia. Tipos de conhecimento. Método e técnica. O processo de leitura e de análise textual. Citações e bibliografias. Trabalhos acadêmicos: tipos, características e composição estrutural. O projeto de pesquisa experimental e não experimental. Pesquisa qualitativa e quantitativa. Apresentação gráfica. Normas da ABNT.

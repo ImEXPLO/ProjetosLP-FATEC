@@ -1,0 +1,99 @@
+<tbody>
+                    <td>4</td> // semestre
+                    <td>Gestão financeira</td> // materia
+                    <td>80 Horas</td> // horas
+                </tr>
+<tbody>
+                    <td>4</td> // semestre
+                    <td>Gestão da produção</td> // materia
+                    <td>80 Horas</td> // horas
+                </tr>
+<tbody>
+                    <td>4</td> // semestre
+                    <td>Programação para internet</td> // materia
+                    <td>80 Horas</td> // horas
+                </tr>
+<tbody>
+                    <td>4</td> // semestre
+                    <td>Redes de computadores</td> // materia
+                    <td>80 Horas</td> // horas
+                </tr>
+<tbody>
+                    <td>4</td> // semestre
+                    <td>Inglês IV</td> // materia
+                    <td>40 Horas</td> // horas
+                </tr>
+<tbody>
+                    <td>4</td> // semestre
+                    <td>Fundamentos de marketing</td> // materia
+                    <td>40 Horas</td> // horas
+                </tr>
+______________________________________________________________________
+
+<tbody>
+                    <td>5</td> 
+                    <td>Planejamento e gestão estratégica</td> 
+                    <td>80 Horas</td>
+                </tr>
+<tbody>
+                    <td>5</td> 
+                    <td>Gestão de projetos</td> 
+                    <td>80 Horas</td>
+                </tr>
+<tbody>
+                    <td>5</td> 
+                    <td>Gestão de tecnologia da informação</td> 
+                    <td>80 Horas</td>
+                </tr>
+<tbody>
+                    <td>5</td> 
+                    <td>Projetos de tecnologia da informação I</td> 
+                    <td>40 Horas</td>
+                </tr>
+<tbody>
+                    <td>5</td> 
+                    <td>Sistemas integrados de gestão e aplicações</td> 
+                    <td>80 Horas</td>
+                </tr>
+<tbody>
+                    <td>5</td> 
+                    <td>Inglês V</td> 
+                    <td>40 Horas</td>
+                </tr>
+______________________________________________________________________
+<tbody>
+                    <td>6</td> 
+                    <td>Gestão econômica</td> 
+                    <td>80 Horas</td>
+                </tr>
+<tbody>
+                    <td>6</td> 
+                    <td>Legislação aplicada á tecnologia da infomação</td> 
+                    <td>40 Horas</td>
+                </tr>
+<tbody>
+                    <td>6</td> 
+                    <td>Tópicos avançados em tecnologia da informação</td> 
+                    <td>80 Horas</td>
+                </tr>
+<tbody>
+                    <td>6</td> 
+                    <td>Inteligência de negócios</td> 
+                    <td>80 Horas</td>
+                </tr>
+<tbody>
+                    <td>6</td> 
+                    <td>Negócios eletrônicos</td> 
+                    <td>40 Horas</td>
+                </tr>
+<tbody>
+                    <td>6</td> 
+                    <td>Projetos de tecnologia da informação II</td> 
+                    <td>40 Horas</td>
+                </tr>
+<tbody>
+                    <td>6</td> 
+                    <td>Inglês VI</td> 
+                    <td>40 Horas</td>
+                </tr>
+

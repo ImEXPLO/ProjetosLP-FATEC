@@ -1,0 +1,14 @@
+* { margin: 0; padding: 0; }
+
+header, main, footer {width: 100%; }
+
+nav, article { height: 250px; float: left;}
+
+nav {width: 20%; background-color: blue;}
+
+article {width: 80%; background-color: yellow;}
+
+header {height: 300px; background-color: green;}
+footer {height: 300px; background-color: red;}
+
+footer {clear: both; }

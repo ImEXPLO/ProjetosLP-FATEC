@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Semânticas</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/estilos_formularios.css" />
+</head>
+
+<body>
+    <div id="corpo">
+        <header>
+            <h1>Jorge's Hardware - Contato</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+        <main>
+            <h2>Entre em contato conosco</h2>
+            <h3>Por favor, insira esses dados:</h3>
+            <form action="outra_pagina.html" method="get">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label>
+                        Nome: <input type="text" name="txt_nome" placeholder="Seu Nome completo" required />
+                    </label>
+                    <label class="label-50">
+                        E-mail: <input type="email" name="txt_email" placeholder="Seu melhor e-mail" required />
+                    </label>
+                    <label class="label-50">
+                        Telefone: <input type="number" name="txt_telefone" placeholder="Seu telefone" required />
+                    </label>
+                    <label class="label-50">
+                        Data de Nascimento: <input type="date" name="txt_data_nasc" required />
+                    </label>
+                    <label >
+                        Motivo do contato: <textarea name="txt_motivo" placeholder="Descreva seu problema" required></textarea>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <label class="label-50">
+                        Rua: <input type="text" name="txt_rua" placeholder="Ex: Rua da FATEC, 123" required />
+                    </label>
+                    <label class="label-50">
+                        Bairro: <input type="text" name="txt_bairro" placeholder="Ex: Bairro da FATEC" required />
+                    </label>
+                    <label class="label-50">
+                        Cidade: <input type="text" name="txt_cidade" placeholder="Ex: Cidade da FATEC" required />
+                    </label>
+                    <label class="label-50">
+                        Estado:
+                        <select>
+                            <option value="">Selecione...</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PR">Paraná</option>
+                        </select>
+                    </label>
+                </fieldset>
+
+                <p class="center">
+                    <button type="submit" class="botao-enviar">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </p>
+
+            </form>
+
+        </main>
+        <footer>
+            Loja do Hardware LTDA
+            <address>
+                Rua da Fatec, 286
+                - Jaú - <abbr title="São Paulo - Brasil">SP</abbr>
+            </address>
+        </footer>
+    </div>
+</body>
+
+</html>

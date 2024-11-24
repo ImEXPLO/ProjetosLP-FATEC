@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<!-- Bem vindo ao meu terceiro código, aqui a gente já começa a diversficar as coisas, criando labels com texto e seleção em radio-->
+<!-- E aqui também, pelo que lembro, começamos a usar bastante o css para estilizar a página com mais complexidade, embora atualmente seja algo MUITO simples-->
+<!-- Mas para nós que estávamos iniciando era muito... Muito foda. Não, não tem outra palavra que descreva.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/estilos_formulario.css">
+</head>
+
+<body>
+    <div id="corpo">
+        <header>
+            <h1>Loja de Hardware</h1> <!-- Header com o nome da loja, novamente, nome muito criativo.-->
+        </header>
+        <main>
+            <h2>Cadastro de Produtos</h2>
+
+            <form action="outra_pagina.html" method="get" target="_blank" enctype="multipart/form-data">
+                <!-- Função muito interessante, que já puxava para outra página ao ter o botão submit clicado-->
+                <fieldset>
+                    <legend>Dados do Produto</legend>
+
+                    <!-- Aqui temos um form contendo espaços como descrição com máximo de 20 caracteres, código, dois radios de seleção e muito mais, muito legal testar essa função na prática-->
+
+                    <!-- Nome do produto (até porque ninguém compra algo sem nome... eu acho.) -->
+                    <label>
+                        Descrição: <input type="text" name="txt_descricao" maxlength="20"
+                            placeholder="Modelo e Aplicações" autofocus required>
+                    </label>
+
+                    <!-- Código: até produto precisa de RG -->
+                    <label>
+                        Código: <input type="text" name="txt_codigo" placeholder="999-99" pattern="[0-9]{3}-[0-9]{2}"
+                            required>
+                    </label>
+
+                    <!-- Onde vai vender? É tipo escolher se vai no online ou presencial -->
+                    <p class="label-50">
+                        <span class="d-block">Vender em: </span>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" name="chk_vender" value="loja_virtual">Loja Virtual
+                        </label>
+
+                        <label class="checkbox-inline">
+                            <input type="checkbox" name="chk_vender" value="loja_fisica">Loja Fisica
+                        </label>
+                    </p>
+
+                    <p class="label-50">
+                        <span class="d-block">Está em Promoção?</span>
+                        <label class="checkbox-inline">
+                            <input type="radio" name="rdo_promocao" value="S"> Sim
+                        </label>
+
+                        <label class="checkbox-inline">
+                            <input type="radio" name="rdo_promocao" value="S"> Não
+                        </label>
+                    </p>
+
+                    <!-- Campo para falar o que o produto faz (ou promete, ou tenta mesmo.) -->
+                    <label>
+                        Especificações:
+                        <textarea name="txt_especificacoes" placeholder="Informações técnicas do produto"
+                            required></textarea>
+                    </label>
+                    <label class="label-50">
+                        Preço de Custo: <input type="number" min="0" name="txt_preco_custo" required />
+                    </label>
+                    <label class="label-50">
+                        Preço de Venda: <input type="number" min="0" name="txt_preco_venda" required>
+                    </label>
+                    <label>
+                        Foto: <input type="file" name="txt_foto" accept="image/*" />
+                        <!-- Foto do produto: porque ninguém compra algo invisível, a menos que você seja o Harry Potter -->
+                    </label>
+
+                    <label class="label-50">
+                        Categoria:
+                        <select name="txt_categoria" required>
+                            <!-- Acredito que aqui foi a primeira vez que utilizamos o elemento dos options, permitia selecionar outra categoria-->
+                            <!-- Categorias: lugar pra encaixar o produto -->
+                            <option value="">Selecione...</option>
+                            <option value="">Processador</option>
+                            <option value="">Placa de Vídeo</option>
+                            <option value="">Placa-Mãe</option>
+                            <option value="">Memória RAM</option>
+                            <option value="">SSD</option>
+                        </select>
+                    </label>
+                    <label class="label-50">
+                        Marca:
+                         <!-- Marca: Só não escolha KCAS, ou Positivo, ou pior, KCAS COM POSITIVO, aí é de perder a amizade. -->
+                        <select name="txt_marca" required>
+                            <option value="" disabled>Selecione...</option>
+                            <optgroup label="Processador">
+                                <option value="1">AMD</option>
+                                <option value="2">Intel</option>
+                            </optgroup>
+                            <optgroup label="Memória RAM">
+                                <option value="3">Kingston</option>
+                                <option value="4">Adata</option>
+                                <option value="5">Corsair</option>
+                            </optgroup>
+                            <optgroup label="Placas de Vídeo">
+                                <option value="6" selected>Nvidia</option>
+                                <option value="7">EVGA</option>
+                                <option value="8">Galax</option>
+                            </optgroup>
+                        </select>
+                    </label>
+                </fieldset>
+
+                <p class="center">
+                    <button type="submit" class="botao-enviar">Salvar</button>
+                    <button type="reset">Limpar</button>
+                </p>
+
+            </form>
+        </main>
+        <footer>
+            Loja de Hardware LTDA
+            <address>
+                Rua da Fatec, 286
+                - Jaú - <abbr title="São Paulo - Brasil"></abbr>
+                <!-- Novamente, o rodapé com o endereço bem ORIGINAL da FATEC.-->
+            </address>
+        </footer>
+    </div>
+</body>
+
+</html>
