@@ -47,7 +47,7 @@ No último conteúdo antes dessa postagem (E provavelmente antes da 2a prova) us
 ---
 
 ## 🤔 Como Explorar este Repositório?  
-Cada pasta corresponde a um tema ou projeto específico, numerado de acordo com a lista acima. Sinta-se à vontade para navegar, explorar e se inspirar.  
+Cada pasta corresponde a um tema ou projeto específico, numerado de acordo com a lista acima. Sinta-se à vontade para navegar! 
  
 ---
 
